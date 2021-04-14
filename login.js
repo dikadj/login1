@@ -21,12 +21,15 @@ function check() {
         if( userName.value === Email[p].email&& passWord.value === Email[p].password) {
 
             alert("You are logged in")
-            }
+            return true;   
+        }
+            
     }  
             
-    
+    alert('you forgot your password');
+    return false;
    
-}
+};
 /*Also note that localStorage can only store strings.
 
 To store arrays or objects, you would have to convert them to strings. */
