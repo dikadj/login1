@@ -1,0 +1,38 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+	background-color: #0A0A0A;
+    color:aliceblue;
+}
+
+.card{
+	width: 400px;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%); /*The -50% transform basically means, in simple words,  "move this element left and upwards by 50% of the computed dimension along the axis". -50% along the x-axis means "move me leftwards by half my computed width", likewise for that in the y-axis. The reason why this is needed is because when setting top: 50%; left: 50% of the element, you are moving the top left corner of the element to the center of its parent. The center of the element, though, does not line up with the center of its parent. */
+   background-color: #0A0A0A;
+}
+
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.social-icons{
+    margin:30px auto;
+    text-align: center;
+}
+
+.social-icons img{
+    width:30px;
+    margin:0 10px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
