@@ -1,10 +1,5 @@
 
 
-/*Also note that localStorage can only store strings.
-
-To store arrays or objects, you would have to convert them to strings. */
-
-
 let userName = document.getElementById("userName");
 let passWord = document.getElementById("password");
 let person =[];
